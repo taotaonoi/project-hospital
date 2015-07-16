@@ -1,64 +1,70 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Language" content="th"> 
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=tis - 620">
-	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1,minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"> 
-	<title> Bootstrap 3 </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+	<title> Hospital </title>
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+<style type="text/css">
+    body{
+    background: url("./images/page.png") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+}
+</style>
 </head>
 <body>
-	<div class="container" >
-		<div class="row">
-			<div class="page-header">
-				<h1>Grid System <small>ตัวอย่างการใช้งาน grid system</small></h1>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3>Row 1 :: Col-sm-6</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris leo, et gravida erat gravida ac. Sed euismod, massa at dictum ultrices, sapien nisi maximus turpis, a dapibus felis libero non eros. Ut venenatis lectus tempor, vestibulum ligula vel, condimentum tellus. Pellentesque imperdiet metus eget nisl fermentum placerat. Curabitur ultrices tellus sed neque tempor posuere. Donec at imperdiet nunc.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3>Row 2 :: Col-sm-6</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris leo, et gravida erat gravida ac. Sed euismod, massa at dictum ultrices, sapien nisi maximus turpis, a dapibus felis libero non eros. Ut venenatis lectus tempor, vestibulum ligula vel, condimentum tellus. Pellentesque imperdiet metus eget nisl fermentum placerat. Curabitur ultrices tellus sed neque tempor posuere. Donec at imperdiet nunc.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3>Row 3 :: Col-sm-12</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris leo, et gravida erat gravida ac. Sed euismod, massa at dictum ultrices, sapien nisi maximus turpis, a dapibus felis libero non eros. Ut venenatis lectus tempor, vestibulum ligula vel, condimentum tellus. Pellentesque imperdiet metus eget nisl fermentum placerat. Curabitur ultrices tellus sed neque tempor posuere. Donec at imperdiet nunc.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-12">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3>Row 4 :: Col-sm-12</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere mauris leo, et gravida erat gravida ac. Sed euismod, massa at dictum ultrices, sapien nisi maximus turpis, a dapibus felis libero non eros. Ut venenatis lectus tempor, vestibulum ligula vel, condimentum tellus. Pellentesque imperdiet metus eget nisl fermentum placerat. Curabitur ultrices tellus sed neque tempor posuere. Donec at imperdiet nunc.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container-fluid">
+            <div class="row" style="margin-top:20px;">
+                <div class="col-md-3">
+                    <div class="row" align="left">
+                        <img src="images/logo.png" class="img-responsive" style="width:125px; height:125px">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row" align="center" style="margin-top:20px;">
+                        
+                    </div>            
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"style="margin-top:10px;">
+                     <div class="row" align="right">
+                        <img src="images/mute.png" class="img-responsive" style="width:50px; height:50px">
+                    </div>
+                </div>
+                <div class="col-md-1" align="left" style="margin-top:13px;">
+                    <img src="images/close.png" style="width:50px; height:50px">
+                </div>
+            </div>
+            <div class="row" style="margin-top:50px;">
+                <div class="col-md-2" align="left"></div>
+                <div class="col-md-8" align="center" style="margin-top:50px;">
+                    <div class="row transperent">
+                        <div class="col-md-6 pic1">
+                            ผู้ป่วย
+                            <br>
+                            <img src="images/child.png" class="img-responsive" style="width:50%; height:40%" align="center">
+                        </div>
+                        <div class="col-md-6 pic1">
+                            แพทย์และพยาบาล
+                            <img src="images/doc.png" class="img-responsive" style="width:50%; height:100%" align="center">
+                        </div>
+                        <div class="row" style="margin-right: 3px; margin-top:5px;">
+                            <img src="images/guest.png" class="img-responsive" style="width:50%; height:40%" align="center">        
+                        </div> 
+                          
+                    </div>
+
+
+                </div>
+                <div class="col-md-2" align="left"></div>
+            </div>
+    </div>
+	
 </body>
 </html>
